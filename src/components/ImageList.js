@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../css/ImageList.css";
 
 export default class ImageList extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class ImageList extends Component {
     });
     return (
       <div>
-        <h1>{images}</h1>
+        <div className="image-list">{images}</div>
       </div>
     );
   }
